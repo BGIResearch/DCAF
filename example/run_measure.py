@@ -1,8 +1,5 @@
-import sys
-sys.path.append('E:/DSC_MODEL/PERTURBATIONS/decaf-perturbation')  # fixme
-
 from data import SimulateData
-from dcaf import RmSilenceGene, NotRmSilenceGene  # todo: 打包后调用包
+from dcaf import RmSilenceGene, NotRmSilenceGene  
 
 
 def  __main__():
