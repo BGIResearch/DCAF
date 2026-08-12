@@ -16,4 +16,4 @@ python run_recover.py
 python run_measure.py
 
 ### Demo for DCAF-model inference
-Located at https://github.com/BGIResearch/DCAF/new/main/infer_each_cell.ipynb
+Located at https://github.com/BGIResearch/DCAF/blob/main/infer_each_cell.ipynb
