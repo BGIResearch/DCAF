@@ -1,11 +1,9 @@
 import os
-import sys
-sys.path.append('E:/DSC_MODEL/PERTURBATIONS/decaf-perturbation')  # fixme
 import numpy as np
 
 from scipy.sparse import load_npz
 
-from dcaf import recover_control_status  # todo: 打包后调用包
+from dcaf import recover_control_status 
 
 
 def  __main__():
