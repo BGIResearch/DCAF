@@ -19,11 +19,14 @@ pip install -r requirements.txt
 ```bash
 python run_recover.py
 ```
+Dataset Tian, derived from [paper](https://pubmed.ncbi.nlm.nih.gov/34031600/) is applied for this demonstration. Susbtitute data/ctrl_tian.npz and data/case_tian.npz with your own CSC or CSR expression for usage.
+
 
 ### Demo for DCAF-criterion
 ```bash
 python run_measure.py
 ```
+Synthetic dataset by data/simulate_data.py is applied for this demonstration.
 
 ### Demo for DCAF-model inference
 Download fintuned models and dictionary, from [drive](https://drive.google.com/drive/folders/1tuOBDReWq4vyj-B5G_w1EZg_PVpjBoAz?usp=sharing) to infer_by_ctrl/ours/data；
