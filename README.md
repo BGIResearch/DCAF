@@ -3,6 +3,7 @@
 
 <img width="2691" height="3440" alt="fig1" src="https://github.com/user-attachments/assets/f69cca77-d931-4e5c-aef4-d4b2dc2d2f84" />
 
+<img width="2910" height="3840" alt="fig1-snap" src="https://github.com/user-attachments/assets/b8d077b9-e0e1-4b68-b179-e98b18d3ad64" />
 
 ### Installation
 ```bash
