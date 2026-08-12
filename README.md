@@ -26,6 +26,6 @@ python run_measure.py
 ```
 
 ### Demo for DCAF-model inference
-Download fintuned models and dictionary, to infer_by_ctrl/ours/data: [drive](https://drive.google.com/drive/folders/1tuOBDReWq4vyj-B5G_w1EZg_PVpjBoAz?usp=sharing)
+Download fintuned models and dictionary, from [drive](https://drive.google.com/drive/folders/1tuOBDReWq4vyj-B5G_w1EZg_PVpjBoAz?usp=sharing) to infer_by_ctrl/ours/data；
 
 Use notebook for inference, at https://github.com/BGIResearch/DCAF/blob/main/infer_each_cell.ipynb
