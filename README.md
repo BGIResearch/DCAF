@@ -1,3 +1,9 @@
+# DCAF
+Data-Criterion-model associated Framework for full cycle of data curation, modeling and accuracy assessment for single-cell pertubation.
+
+<img width="2713" height="3440" alt="fig1" src="https://github.com/user-attachments/assets/8fdc00f2-7997-443b-9de2-c52181019305" />
+
+
 ### Installation
 ```bash
 git clone https://github.com/BGIResearch/DCAF.git
