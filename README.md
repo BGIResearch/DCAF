@@ -21,7 +21,7 @@ python run_recover.py
 ```
 Dataset Tian, derived from [paper](https://pubmed.ncbi.nlm.nih.gov/34031600/) is applied for this demonstration. 
 
-Susbtitute data/ctrl_tian.npz and data/case_tian.npz with your own CSC or CSR control and case expression for usage.
+Susbtitute data/ctrl_tian.npz and data/case_tian.npz with your own control and case expression in .npz for usage.
 
 
 ### Demo for DCAF-criterion
