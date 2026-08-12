@@ -17,6 +17,8 @@ pip install -r requirements.txt
 
 ### Demo for DCAF-data
 ```bash
+cd DCAF/example
+
 python run_recover.py
 ```
 Dataset Tian, derived from [paper](https://pubmed.ncbi.nlm.nih.gov/34031600/) is applied for this demonstration. 
@@ -26,6 +28,8 @@ Susbtitute data/ctrl_tian.npz and data/case_tian.npz with your own control and c
 
 ### Demo for DCAF-criterion
 ```bash
+cd DCAF/example
+
 python run_measure.py
 ```
 Synthetic dataset by data/simulate_data.py is applied for this demonstration.
