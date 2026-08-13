@@ -18,22 +18,36 @@ pip install -r requirements.txt
 
 ### Demo for DCAF-data
 ```bash
-cd DCAF/example
+cd DCAF
 
-python run_recover.py
+python run_recover.py -m demo
 ```
 Dataset Tian, derived from [paper](https://pubmed.ncbi.nlm.nih.gov/34031600/) is applied for this demonstration. 
 
-Susbtitute data/ctrl_tian.npz and data/case_tian.npz with your own control and case expression in .npz for usage.
+### Use DCAF-data to recover control and case status of your own data
+```bash
+cd DCAF
 
+python run_recover.py -ctrl your_control_npz_full_path_or_npz_under_/data -case your_control_npz_full_path_or_npz_under_/data
+```
+Control and case npz files shall be placed in the same path. They don't necessarily be  of the same size.
 
 ### Demo for DCAF-criterion
 ```bash
-cd DCAF/example
+cd DCAF
 
-python run_measure.py
+python run_measure.py -m demo
 ```
-Synthetic dataset by data/simulate_data.py is applied for this demonstration.
+Synthetic dataset using our article (a link to be inserted) is applied for this demonstration.
+
+### Use DCAF-criterion to assess accuracy of your own output, using your own dataset
+```bash
+cd DCAF
+
+python run_measure.py -ctrl your_control_npz_full_path_or_npz_under_/data -case your_control_npz_full_path_or_npz_under_/data -pred your_predict_npz_full_path_or_npz_under_/data
+```
+Control, case, and predicted npz files shall be placed in the same path. They shall be of the same size.
+
 
 ### Demo for DCAF-model inference
 Download fintuned models and dictionary, from [drive](https://drive.google.com/drive/folders/1tuOBDReWq4vyj-B5G_w1EZg_PVpjBoAz?usp=sharing) to infer_by_ctrl/ours/data；
