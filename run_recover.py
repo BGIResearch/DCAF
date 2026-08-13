@@ -1,6 +1,4 @@
 import os
-import sys
-sys.path.append('/')  # fixme
 import numpy as np
 
 from argparse import ArgumentParser
