@@ -28,7 +28,7 @@ Dataset Tian, derived from [paper](https://pubmed.ncbi.nlm.nih.gov/34031600/) is
 ```bash
 cd DCAF
 
-python run_recover.py -ctrl NPZ_FULL_PATH_OR_ITS_FILE_NAME_UNDER_DATA -case  NPZ_FULL_PATH_OR_ITS_FILE_NAME_UNDER_DATA
+python run_recover.py -ctrl NPZ_FULL_PATH_OR_ITS_FILE_NAME_UNDER_/data -case  NPZ_FULL_PATH_OR_ITS_FILE_NAME_UNDER_/data
 ```
 Control and case npz files shall be placed in the same path. They don't necessarily be  of the same size.
 
