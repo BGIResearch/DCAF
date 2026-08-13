@@ -1,7 +1,8 @@
 # DCAF
 **Data-Criterion-model associated Framework for full cycle of single-cell pertubation modeling!**
 
-<img width="2713" height="3424" alt="fig1" src="https://github.com/user-attachments/assets/45f34d1b-41aa-49c4-81e4-4e383ebe2108" />
+<img width="2680" height="3424" alt="fig1" src="https://github.com/user-attachments/assets/e545ef68-42b6-4214-9d9b-44fb659a553e" />
+
 
 
 ### Installation
