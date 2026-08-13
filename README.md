@@ -5,11 +5,13 @@
 
 
 
-### Installation
+### Installation of DCAF-data and DCAF-criterion
 ```bash
 git clone https://github.com/BGIResearch/DCAF.git
 
 cd DCAF
+
+conda create -n DCAF_data_cri python=3.9
 
 pip install .
 
@@ -44,6 +46,10 @@ Synthetic dataset using our article (a link to be inserted) is applied for this 
 ### Use DCAF-criterion to assess accuracy of your own output, using your own dataset
 ```bash
 cd DCAF
+
+conda create -n DCAF-model python=3.9
+
+# may need two repo here?
 
 python run_measure.py -ctrl NPZ_FULL_PATH_OR_ITS_FILE_NAME_UNDER_/data
                       -case NPZ_FULL_PATH_OR_ITS_FILE_NAME_UNDER_/data
