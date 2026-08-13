@@ -8,13 +8,12 @@
 ### Installation of DCAF-data and DCAF-criterion
 ```bash
 git clone https://github.com/BGIResearch/DCAF.git
-
 cd DCAF
 
 conda create -n DCAF_data_cri python=3.9
+conda activate DCAF_data_cri
 
 pip install .
-
 pip install -r requirements.txt
 ```
 
@@ -57,6 +56,17 @@ python run_measure.py -ctrl NPZ_FULL_PATH_OR_ITS_FILE_NAME_UNDER_/data
 ```
 Control, case, and predicted npz files shall be placed in the same path. They shall be of the same size.
 
+### Installation of DCAF-model
+```bash
+git clone https://github.com/BGIResearch/DCAF.git
+cd DCAF
+
+conda create -n DCAF_model python=3.9
+conda activate DCAF_model
+
+pip install .
+pip install -r requirements.txt (Need another requirement file)
+```
 
 ### Demo for DCAF-model inference
 Download fintuned models and dictionary, from [drive](https://drive.google.com/drive/folders/1tuOBDReWq4vyj-B5G_w1EZg_PVpjBoAz?usp=sharing) to infer_by_ctrl/ours/data；
