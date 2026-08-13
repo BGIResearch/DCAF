@@ -25,16 +25,12 @@ conda activate DCAF_data_cri
 
 ### Demo for DCAF-data
 ```bash
-cd DCAF
-
 python run_recover.py -m demo
 ```
 Dataset Tian, derived from [paper](https://pubmed.ncbi.nlm.nih.gov/34031600/) is applied for this demonstration. 
 
 ### Use DCAF-data to recover control and case status of your own data
 ```bash
-cd DCAF
-
 python run_recover.py -ctrl NPZ_FULL_PATH_OR_ITS_FILE_NAME_UNDER_/data
                       -case NPZ_FULL_PATH_OR_ITS_FILE_NAME_UNDER_/data
 ```
@@ -42,16 +38,12 @@ Control and case npz files shall be placed in the same path. They don't necessar
 
 ### Demo for DCAF-criterion
 ```bash
-cd DCAF
-
 python run_measure.py -m demo
 ```
 Synthetic dataset using our article (a link to be inserted) is applied for this demonstration.
 
 ### Use DCAF-criterion to assess accuracy of your own output, using your own dataset
 ```bash
-cd DCAF
-
 python run_measure.py -ctrl NPZ_FULL_PATH_OR_ITS_FILE_NAME_UNDER_/data
                       -case NPZ_FULL_PATH_OR_ITS_FILE_NAME_UNDER_/data
                       -pred NPZ_FULL_PATH_OR_ITS_FILE_NAME_UNDER_/data
@@ -63,6 +55,7 @@ Control, case, and predicted npz files shall be placed in the same path. They sh
 ### Installation of DCAF-model
 ```bash
 git clone https://github.com/BGIResearch/DCAF.git
+
 cd DCAF
 
 conda create -n DCAF_model python=3.9
