@@ -34,7 +34,6 @@ def _decide_low_thresh(args):
 
 def __main__():
     parser = ArgumentParser()
-    # fixme: user
     parser.add_argument('-m', '--mode', type=str, default='user', help='to use or to show demo')  # to measure user's own data by default, otherwise assign 'demo'
 
     parser.add_argument('-ctrl', '--control', type=str, help='control data path')
