@@ -8,13 +8,19 @@
 ### Installation of DCAF-data and DCAF-criterion
 ```bash
 git clone https://github.com/BGIResearch/DCAF.git
+
 cd DCAF
 
 conda create -n DCAF_data_cri python=3.9
-conda activate DCAF_data_cri
 
 pip install .
+
 pip install -r requirements.txt
+```
+
+### Activate environment for DCAF-data and DCAF-criterion
+```bash
+conda activate DCAF_data_cri
 ```
 
 ### Demo for DCAF-data
@@ -46,10 +52,6 @@ Synthetic dataset using our article (a link to be inserted) is applied for this 
 ```bash
 cd DCAF
 
-conda create -n DCAF-model python=3.9
-
-# may need two repo here?
-
 python run_measure.py -ctrl NPZ_FULL_PATH_OR_ITS_FILE_NAME_UNDER_/data
                       -case NPZ_FULL_PATH_OR_ITS_FILE_NAME_UNDER_/data
                       -pred NPZ_FULL_PATH_OR_ITS_FILE_NAME_UNDER_/data
@@ -66,6 +68,11 @@ conda activate DCAF_model
 
 pip install .
 pip install -r requirements.txt (Need another requirement file)
+```
+
+### Activate environment for DCAF-model
+```bash
+conda activate DCAF_model
 ```
 
 ### Demo for DCAF-model inference
