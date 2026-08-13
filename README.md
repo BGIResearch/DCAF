@@ -59,9 +59,11 @@ git clone https://github.com/BGIResearch/DCAF.git
 cd DCAF
 
 conda create -n DCAF_model python=3.9
+
 conda activate DCAF_model
 
 pip install .
+
 pip install -r requirements.txt (Need another requirement file)
 ```
 
