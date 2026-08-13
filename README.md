@@ -3,8 +3,8 @@
 
 <img width="2680" height="3424" alt="fig1" src="https://github.com/user-attachments/assets/e545ef68-42b6-4214-9d9b-44fb659a553e" />
 
-----------------------------------------------------------------------Use DCAF-data and DCAF-criterion--------------------------------------------------------------------------
 
+## **DCAF-data**
 ### Installation of DCAF-data and DCAF-criterion
 ```bash
 git clone https://github.com/BGIResearch/DCAF.git
@@ -58,6 +58,8 @@ python run_measure.py -ctrl NPZ_FULL_PATH_OR_ITS_FILE_NAME_UNDER_/data
 ```
 Control, case, and predicted npz files shall be placed in the same path. They shall be of the same size.
 
+
+## **DCAF-model**
 ### Installation of DCAF-model
 ```bash
 git clone https://github.com/BGIResearch/DCAF.git
