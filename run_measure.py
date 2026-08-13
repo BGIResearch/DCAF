@@ -1,13 +1,10 @@
 import sys
-
-sys.path.append('/')  # fixme
 import scipy
 import os
 
 from argparse import ArgumentParser
 from scipy import sparse
 
-from data import SimulateData
 from dcaf import RmSilenceGene, NotRmSilenceGene  # todo: 打包后调用包
 
 
