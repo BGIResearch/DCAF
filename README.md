@@ -64,7 +64,7 @@ Test performance:
 | **GPU**                      | **NVIDIA A100-PCIE-40GB ($\times$ 1)**      |
 | **Batch size**               | **4**                                      |
 | **No. of cells**             | **50**                                     |
-| **Peak RAM**                 | **11 GB**                                  |
+| **Peak GPU RAM**             | **11 GB**                                  |
 | **Time**                     | **9.2 s**                                  |
 
 
