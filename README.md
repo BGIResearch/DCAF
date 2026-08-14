@@ -61,7 +61,7 @@ Test performance:
 | **Item**                     | **Specification**                          |
 | ---------------------------- | -------------------------------------------|
 | **CPU Architecture & Model** | **aarch64 (ARM), HiSilicon Kunpeng-920**   |
-| **GPU**                      | **NVIDIA A100-PCIE-40GB ($\times$ 1)**     |
+| **GPU**                      | **NVIDIA A100-PCIE-40GB ($\times$1)**      |
 | **Batch size**               | **4**                                      |
 | **No. of cells**             | **50**                                     |
 | **Peak RAM**                 | **11 GB**                                  |
