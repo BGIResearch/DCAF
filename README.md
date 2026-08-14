@@ -60,10 +60,10 @@ Multi-card acceleration is not supported.
 Test performance:
 | **Item**                     | **Specification**                          |
 | ---------------------------- | -------------------------------------------|
-|      **Batch size**          | **4**                                      |
-| **Np. of cells**             | **50**                                     |
 | **CPU Architecture & Model** | **aarch64 (ARM), HiSilicon Kunpeng-920**   |
-| **GPU**                      | **NVIDIA A100-PCIE-40GB** ($\times$ 1)     |
+| **GPU**                      | **NVIDIA A100-PCIE-40GB ($\times$ 1)**     |
+| **Batch size**               | **4**                                      |
+| **Np. of cells**             | **50**                                     |
 | **Peak RAM**                 | **11 GB**                                  |
 | **Time**                     | **9.2 s**                                  |
 
