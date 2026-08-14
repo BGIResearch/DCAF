@@ -59,7 +59,7 @@ Multi-card acceleration is not supported.
 
 Test performance:
 | **Item**                     | **Specification**                          |
-| ：----------------------------： | ：-------------------------------------------：|
+| :----------------------------: | :-------------------------------------------:|
 |      **Batch size**          | **4**                                      |
 | **Np. of cells**             | **50**                                     |
 | **CPU Architecture & Model** | **aarch64 (ARM), HiSilicon Kunpeng-920**   |
