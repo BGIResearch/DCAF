@@ -57,14 +57,14 @@ Nvidia GPU with at least 8 GB RAM is required, 16 GB is recommended.
 Multi-card acceleration is not supported.
 
 Test performance:
-| **Item**    | **Specification**                      |
-| -------------------- | -------------------------------------- |
-| **Batch size** | **4**                        |
-| **Np. of cells** | **50**                        |
-| **CPU Architecture & Model** | aarch64 (ARM), HiSilicon Kunpeng-920                           |
-| **GPU**              | **NVIDIA A100-PCIE-40GB** ($\times$ 1) |
-| **Peak RAM**        | **11 GB**             |
-| **Time ** | **9.2 s**                        |
+| **Item**                     | **Specification**                      |
+| ---------------------------- | -------------------------------------- |
+| **Batch size**               | **4**                                  |
+| **Np. of cells**             | **50**                                 |
+| **CPU Architecture & Model** | aarch64 (ARM), HiSilicon Kunpeng-920   |
+| **GPU**                      | **NVIDIA A100-PCIE-40GB** ($\times$ 1) |
+| **Peak RAM**                 | **11 GB**                              |
+| **Time**                     | **9.2 s**                              |
 
 
 ### Installation of DCAF-model
