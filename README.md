@@ -53,7 +53,7 @@ Control, case, and predicted npz files shall be placed in the same path. They sh
 
 ## **DCAF-model**
 ### Hardware Requirement and Test Performance
-Nvidia GPU with at least 8 GB RAM is required, 16 GB is recommended.
+Nvidia GPU with at least 8 GB VRAM is required, 16 GB is recommended.
 
 Multi-card acceleration is not supported.
 
@@ -64,7 +64,7 @@ Test performance:
 | **GPU**                      | **NVIDIA A100-PCIE-40GB ($\times$ 1)**      |
 | **Batch size**               | **4**                                      |
 | **No. of cells**             | **50**                                     |
-| **Peak GPU RAM**             | **11 GB**                                  |
+| **Peak VRAM**                | **11 GB**                                  |
 | **Time**                     | **9.2 s**                                  |
 
 
