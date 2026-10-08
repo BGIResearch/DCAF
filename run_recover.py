@@ -28,13 +28,18 @@ def __main__():
     parser.add_argument('-case', '--case', type=str, help='case data path')
     args = parser.parse_args()
 
-    # user need to assign complete path or put data in /data if using not showing demo
-    assert (args.mode != 'user')\
-           or\
-           (os.path.exists(args.control) and os.path.exists(args.case))\
-           or\
-           (os.path.exists(os.path.join(os.getcwd(), 'data', args.control)) and os.path.exists(os.path.join(os.getcwd(), 'data', args.case))), \
-           "if you are not using demo mode, put your data under /data, or specify their ACTUAL full path"
+    # user need to assign complete path or put data in /data if not using demo that is shown    
+    if args.mode != 'user':  # demo mode no need to assert
+        pass
+    else:
+        assert args.control and args.case and args.pred, "Control, case or pred path not assigned"
+        assert (os.path.exists(args.control) 
+                and os.path.exists(args.case))\
+               or\
+               (os.path.exists(os.path.join(os.getcwd(), 'data', args.control))
+                and os.path.exists(os.path.join(os.getcwd(), 'data', args.case))
+                )), \
+               "For control and case file, specify their CORRECT file name under /data, or specify their CORRECT full path"
 
     ctrl, case = _load_data(args)
     ctrl_match, ctrl_ind_match = recover_control_status(ctrl, case)
