@@ -9,7 +9,7 @@ import setuptools
 
 __version__ = "1.0.0"
 
-requirements = open("requirements.txt").readline()
+requirements = open("requirements.txt").read().splitlines()
 
 
 with open("README.md", "r") as fh:
