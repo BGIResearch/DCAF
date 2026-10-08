@@ -44,15 +44,19 @@ def __main__():
                         help='Threshold between 0 inflation and binomial distribution')
     args = parser.parse_args()
 
-    # user need to assign complete path or put data in /data if using not showing demo
-    assert (args.mode != 'user')\
-           or\
-           (os.path.exists(args.control) and os.path.exists(args.case) and os.path.exists(args.pred))\
-           or\
-           (os.path.exists(os.path.join(os.getcwd(), 'data', args.control))
-            and os.path.exists(os.path.join(os.getcwd(), 'data', args.case))
-            and os.path.exists(os.path.join(os.getcwd(), 'data', args.pred))), \
-           "if you are not using demo mode, put your data under /data, or specify their ACTUAL full path"
+    # user need to assign complete path or put data in /data if not using demo that is shown    
+    if args.mode != 'user':  # demo mode no need to assert
+        pass
+    else:
+        assert args.control and args.case and args.pred, "Control, case or pred path not assigned"
+        assert (os.path.exists(args.control) 
+                and os.path.exists(args.case) 
+                and os.path.exists(args.pred))\
+               or\
+               (os.path.exists(os.path.join(os.getcwd(), 'data', args.control))
+                and os.path.exists(os.path.join(os.getcwd(), 'data', args.case))
+                and os.path.exists(os.path.join(os.getcwd(), 'data', args.pred))), \
+               "For control, case and pred file,specify their CORRECT file name under /data, or specify their CORRECT full path"
 
     low_thresh = _decide_low_thresh(args)
 
